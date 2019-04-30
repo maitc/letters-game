@@ -1,0 +1,18 @@
+.box-letter {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #E54353;
+  border-radius: 5px;
+  margin: 10px 0 0 10px;
+  background: linear-gradient(to bottom, #face5a, #F87D27);
+}
+
+.box-letter p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: -1px 0 #00000066;
+}
+
+.box-letter.colorcito {
+  background: red;
+}

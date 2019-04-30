@@ -1,0 +1,26 @@
+.close {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close p {
+    margin-right: 10px;
+  }
+  
+  .img-close img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .img-close {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+  }
+
+  @media (min-width: 320px) and (max-width: 1400px) {
+    .close {
+      margin-bottom: 24px
+    }
+  }
+  

@@ -1,0 +1,62 @@
+.container-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box h1 {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+}
+
+.container-letter {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 300px;
+}
+
+.separation {
+  margin-top: 100px;
+}
+
+.container-input-close {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label input {
+  height: 30px;
+}
+
+.option-active {
+  background: red;
+}
+
+@media (min-width: 320px) and (max-width: 1400px) {
+  .container {
+    display: block;
+  }
+
+  .container-letter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 13%;
+  }
+
+  label {
+    text-align: center;
+  }
+
+  label input {
+    width: 62%;
+  }
+}
